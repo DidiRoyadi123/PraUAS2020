@@ -1,0 +1,108 @@
+    <!DOCTYPE html>
+    <html>
+    <head>
+       <title>PraUAS</title>
+       <link rel="stylesheet" href="../style.css">
+    </head>
+    <body>
+     
+		<header>	
+		 <div class="endas">
+			<h1>MACA DOT COM</h1>
+			<p> Today A READER ,tomorrow A LEADER</p>
+			<marquee behavior="alternate"bgcolor="red">warning..!! Membaca dapat merusak kebodohanMu</marquee>
+		 </div>
+			<nav>
+			<nav>
+				<ul>
+					<li><a href= "../utama.html" >BERITA</a></li>
+					<li><a href="update.html">UPDATE DATA COVID-19</a></li>
+					<li><a href="tips.html">TIPS JAGA KESEHATAN</a></li>
+				</ul>
+			</nav>		
+				
+	</header>
+	<main>
+	  <div id="content">
+		<h1>UPDATE DATA PENDERITA COVID-19</h1>
+			<div id="kopi-covid"></div>
+		<script>
+		  var f = document.createElement("iframe");
+		  f.src = "https://kopi.dev/widget-covid-19/";
+		  f.width = "100%";
+		  f.height = 380;
+		  f.scrolling = "no";
+		  f.frameBorder = 0;
+		  var rootEl = document.getElementById("kopi-covid");
+		  console.log(rootEl);
+		  rootEl.appendChild(f);
+		</script>
+	  </div>
+	  
+	  <aside>
+			  <article class="profile card">
+				   <header>
+					<h2>DATA DIRI PENULIS</h2>
+					<figure>
+					   <img src="../aset/pas.Jpg">
+				   </figure>
+				   </header>
+			   
+			   <section>
+			      
+					   <table> 
+						  <tr>
+							 <th>NAMA</th>
+							 <td>DIDI ROYADI</td>
+						  </tr>
+						  <tr>
+							 <th>TANGGAL LAHIR</th>
+							 <td>13 APRIL 1999</td>
+						  </tr>
+						  <tr>
+							 <th>NIM</th>
+							 <td>2019114036</td>
+						  </tr>
+						  <tr>
+							 <th>JURUSAN</th>
+							 <td>SISTEM INFORMASI</td>
+						  </tr>
+							
+					  </table>
+			   </section>
+		   </article>
+		   
+		  <form class= "langgan" >
+        <fieldset>
+        <legend>LANGGANAN BERITA TERBARU</legend>
+        <p>
+            <label>Nama:</label>
+            <input type="text" name="name" placeholder="your name..." />
+        </p>
+        <p>
+            <label>Tanggal Lahir:</label>
+            <input type="date" name="tanggal" />
+        </p>
+        <p>
+            <label>Email:</label>
+            <input type="email" name="email" placeholder="your email..." />
+        </p>
+		<p>
+            <label>password:</label>
+            <input type="password" name="password" placeholder="your password..." />
+        </p>
+        <p>
+            <input type="submit" name="LANGGANAN" value="LANGGANAN" />
+        </p>
+        </fieldset>
+    </form>	
+		   
+	  </aside>
+	 
+   </main>
+   
+		<footer>
+			<p>UNIVERSITAS CATUR INSAN CENDEKIA &#169; 2020</p>
+		</footer>
+</body>
+ </html>

@@ -1,0 +1,137 @@
+    @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;700&display=swap');
+	
+	nav a {
+       font-size: 18px;
+       font-weight: 400;
+       text-decoration: none;
+       color: white;
+    }
+	
+	nav a:hover {
+       font-weight: bold;
+	   color:navy;
+    }
+	   
+	nav {
+       background-color: #00a2c6;
+       padding: 5px;
+    }
+	
+	nav li {
+       display: inline;
+       list-style-type: none;
+       margin-right: 20px;
+    }
+	
+	body {
+       font-family: 'Quicksand', sans-serif;
+       margin: 0;
+       padding: 500;
+    }
+	
+	main {
+       padding: 20px;
+       overflow: auto;
+    }
+     
+    h2,h3 {
+       color: #00a2c6
+    }
+     
+    footer {
+       padding: 20px;
+       color: white;
+       background-color: #00a2c6;
+       text-align: center;
+       font-weight: bold;
+    }
+	
+	 .profile header {
+       text-align: center;
+    }
+	
+    .gambar-berita {
+       width: 100%;
+       max-height: 300px;
+       object-fit: cover;
+       object-position: center;
+    }
+	
+	.profile img {
+       width: 150px;
+    }
+	
+	.card{
+	   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+	   border-radius: 5px;
+       padding: 20px;
+       margin-top: 20px
+	}
+	
+	.berita {
+       box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+       border-radius: 5px;
+       padding: 20px;
+       margin-top: 20px;
+	   text-align: justify;
+    }
+	
+	.langgan{
+	   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+	   border-radius: 5px;
+       padding: 20px;
+       margin-top: 20px
+	}
+	
+	.endas {
+       font-size: 20px;
+       padding: 60px;
+       background-color: #00c8eb;
+       text-align: center;
+       color: white;
+    }
+	
+	#content {
+       float: left;
+       width: 75%;
+    }
+	
+	aside {
+       float: right;
+       width: 25%;
+	   padding-left: 20px;
+    }
+	 	 
+	* {
+       box-sizing: border-box;
+    }
+	
+	.listBERITA1,.listBERITA2,.listBERITA3,.listBERITA4,.listBERITA5{
+	   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+       border-radius: 5px;
+       padding: 30px;
+       margin-top: 50px;
+	 }
+	
+	.listBERITA1:hover,.listBERITA2:hover,.listBERITA3:hover,.listBERITA4:hover,.listBERITA5:hover{
+       font-weight: bold;
+	   color:navy;
+    }
+	
+	.listBERITA1 a,.listBERITA2 a,.listBERITA3 a,.listBERITA4 a,.listBERITA5 a{
+	   text-decoration: none;}
+	
+	.duwur li,.duwur li {
+       list-style-type: none;
+       margin-right: 20px;
+	   color: white;
+    }
+	 .duwur1 a,.duwur2 a{
+		 text-decoration: none;
+		 color : blue;
+	 }
+	 .duwur1:hover ,.duwur2:hover{
+		 font-weight: bold;
+		 color : red;
+	 }
+	 
